@@ -1,5 +1,5 @@
 function updateTime() {
-  const timeElement = documet.getElementById('time');
+  const timeElement = document.getElementById('time');
   const now = new Date();
   const hours = String(now.getHours()).padStart(2, '0');
   const minutes = String(now.getMinutes()).padStart(2, '0');
